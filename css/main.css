@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'montserrat';
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.conteiner {
+    height: 100vh;
+    width: 100vw;
+}
+
+.site1 {
+    height: 90%;
+    width: 100%;
+    background-image: url('/img/PG-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.site1 > .box-modifiers {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(21, 21, 21, 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site1 > .box-modifiers > article {
+    width: 316px;
+    height: 540px;
+    margin-right: 5%;
+}
+
+.site1 > .box-modifiers > article img {
+    width: 207px;
+    height: 62px;
+}
+
+.site1 > .box-modifiers > article h2 {
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.site1 > .box-modifiers > article > h2 span {
+    color: rgb(21, 21, 21);
+    background-color: #f3ac39;
+}
+
+.site1 > .box-modifiers > article .corpo {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.site1 > .box-modifiers > article .preco {
+    margin-top: 30px;
+}
+
+.site1 > .box-modifiers > article > .preco #preco-total {
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.site1 > .box-modifiers > article > .preco #preco-parcelado {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.site1 > .box-modifiers > article > .preco #preco-parcelado span {
+    font-size: 14px;
+    vertical-align: super;
+}
+
+.site1 > .box-modifiers > aside {
+    width: 697px;
+    height: 502px;
+}
+
+.site1 > .box-modifiers > aside .box {
+    width: 96.9%;
+    height: 370px;
+    background-color: rgb(21, 21, 21);
+    border: 12px solid rgba(241,194,17, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site1 > .box-modifiers > aside img {
+    width: 450px;
+    height: 144px;
+}
+
+.site1 > .box-modifiers > aside button {
+    width: 100%;
+    height: 62px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: large;
+    background: linear-gradient(90deg, #f1bf11, #f22b5a);
+    margin-top: 30px;
+    cursor: pointer;
+    animation: giggle 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes giggle {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-7px);
+    }
+}
